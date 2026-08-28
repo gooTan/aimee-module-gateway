@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "module": "gateway",
+  "classification": "required",
+  "execution": "core",
+  "runtime": null,
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "ddc9472bc739f7c064ff92933814844916ebe8f80af25cf6adeff03994c4b1a9",
+  "owned_files": [
+    "src/modules/gateway/module.yaml",
+    "src/modules/gateway/gateway_delegate.c",
+    "src/modules/gateway/gateway_pipeline.c",
+    "src/modules/gateway/gateway_policy.c",
+    "src/modules/gateway/include/aimee/gateway/gateway_delegate.h",
+    "src/modules/gateway/include/aimee/gateway/gateway_pipeline.h",
+    "src/modules/gateway/include/aimee/gateway/gateway_policy.h",
+    "src/tests/test_gateway_p4_delegate.c",
+    "src/tests/test_gateway_pipeline.c",
+    "src/tests/test_gateway_policy.c",
+    "docs/modules/gateway.md"
+  ]
+}
